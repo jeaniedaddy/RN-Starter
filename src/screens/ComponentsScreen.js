@@ -7,7 +7,6 @@ const  ComponentsScreen = () => {
         <View>
             <Text>Components Screen</Text>
         </View>
-
     );
 };
 

@@ -19,13 +19,13 @@ const  ListScreen = () => {
         //<Text style={styles.text}>List Screen</Text>
         <FlatList 
             //horizontal
-            showsHorizontalScrollIndicator={false}
-            showsVerticalScrollIndicator
-            keyExtractor={(item)=>{ return item.name}}
+            //showsHorizontalScrollIndicator={false}
+            //showsVerticalScrollIndicator
+            keyExtractor={friend=> friend.name}
             data={friends} 
             renderItem={({item, index})=>{
                 return (
-                    <Text style={styles.textStyle}>{item.name + '- Age: ' + item.age}</Text>
+                    <Text style={styles.textStyle}>{item.name} - Age: {item.age}</Text>
                 );
             }} 
         />
