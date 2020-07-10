@@ -5,7 +5,7 @@ import ImageScreen from "./ImageScreen.js";
 const HomeScreen = ({navigation}) => {
   return (
     <View>
-
+      <Text>Hi! there</Text>
       <Button 
         onPress={()=>navigation.navigate('Components') }
         title="Go to Components Demo"
@@ -17,6 +17,10 @@ const HomeScreen = ({navigation}) => {
       <Button 
         onPress={()=>navigation.navigate('Image') }
         title="Go to Image Demo"
+      />
+      <Button 
+        onPress={()=>navigation.navigate('Counter') }
+        title="Go to Counter Demo"
       />
     </View>
   );
