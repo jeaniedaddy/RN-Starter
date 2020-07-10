@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, View, Button, StyleSheet } from "react-native";
 
-const Counter = () => {
+const CounterScreen = () => {
   const [counter, setCounter] = useState(0);
   return (
     <View>
@@ -24,4 +24,4 @@ const Counter = () => {
 
 const styles = StyleSheet.create({});
 
-export default Counter;
+export default CounterScreen;
