@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, View, Button, FlatList, StyleSheet } from "react-native";
 
-const ColorsScreen = () => {
+const ColorScreen = () => {
   const [colors, setColors] = useState([]);
 
   return (
@@ -41,4 +41,4 @@ const randomRgb= () => {
 
 const styles = StyleSheet.create({});
 
-export default ColorsScreen;
+export default ColorScreen;
